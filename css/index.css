@@ -1,0 +1,140 @@
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-text {
+  font-style: italic;
+  color: #555;
+}
+
+.card-subtitle {
+  font-weight: bold;
+  color: #333;
+}
+
+.list-group-item {
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: translateY(-5px);
+  background-color: #e9ecef;
+}
+
+.list-group-item h5 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.list-group-item small {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.news-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.news-card h5 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.news-card .card-text {
+  color: #555;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.btn-read-more {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 100%;
+  padding: 15px;
+}
+.my-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-12 {
+  width: 100%;
+}
+.col-lg-6 {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .col-lg-6 {
+    width: 50%;
+  }
+}
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 99;
+}
